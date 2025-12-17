@@ -11,8 +11,8 @@ const SYMBOL: vector<u8> = b"BOOK";
 const NAME: vector<u8> = b"TBook Token";
 const DESCRIPTION: vector<u8> = b"BOOK: The TBook Token.";
 const DECIMALS: u8 = 9;
-const ICON_URL: vector<u8> = b"https://static.tbook.vip/img/1df6ce9ca77c4c02a0b30d8b24675185";
-const TOTAL_SUPPLY: u64 = 10_000_000_000_000000000; // 100M with 9 decimals
+const ICON_URL: vector<u8> = b"https://static.tbook.vip/token.jpg";
+const TOTAL_SUPPLY: u64 = 10_000_000_000_000000000; // 10B with 9 decimals
 
 #[allow(deprecated_usage)]
 fun init(witness: BOOK, ctx: &mut TxContext) {
