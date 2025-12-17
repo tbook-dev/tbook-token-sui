@@ -11,7 +11,7 @@ const SYMBOL: vector<u8> = b"BOOK";
 const NAME: vector<u8> = b"TBook Token";
 const DESCRIPTION: vector<u8> = b"BOOK: The TBook Token.";
 const DECIMALS: u8 = 9;
-const ICON_URL: vector<u8> = b"https://static.tbook.vip/token.jpg";
+const ICON_URL: vector<u8> = b"https://walrus-main-aggregator.4everland.org/v1/blobs/nfEkXADqqsRfQPYnnn8nP4qNpppKulUGdgDYqL6EaCA";
 const TOTAL_SUPPLY: u64 = 10_000_000_000_000000000; // 10B with 9 decimals
 
 #[allow(deprecated_usage)]
