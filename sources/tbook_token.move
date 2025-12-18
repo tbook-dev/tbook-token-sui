@@ -35,6 +35,7 @@ public entry fun mint(
     recipient: address,
     ctx: &mut TxContext,
 ) {
+    assert!(coin::total_supply(treasury_cap) + amount <= TOTAL_SUPPLY, 1);
     let coin = coin::mint(treasury_cap, amount, ctx);
     transfer::public_transfer(coin, recipient)
 }
