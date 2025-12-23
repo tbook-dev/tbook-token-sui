@@ -11,7 +11,7 @@ const SYMBOL: vector<u8> = b"BOOK";
 const NAME: vector<u8> = b"TBook Token";
 const DESCRIPTION: vector<u8> = b"BOOK: The TBook Token.";
 const DECIMALS: u8 = 9;
-const ICON_URL: vector<u8> = b"https://walrus-main-aggregator.4everland.org/v1/blobs/nfEkXADqqsRfQPYnnn8nP4qNpppKulUGdgDYqL6EaCA";
+const ICON_URL: vector<u8> = b"https://walrus-main-aggregator.4everland.org/v1/blobs/2SqOzKBNbZ_DS5-IvlpJHwTHgDnVhNhxAJg2Jl3hhBA";
 const TOTAL_SUPPLY: u64 = 10_000_000_000_000000000; // 10B with 9 decimals
 
 #[allow(deprecated_usage)]
@@ -35,7 +35,7 @@ public entry fun mint(
     recipient: address,
     ctx: &mut TxContext,
 ) {
-    assert!(coin::total_supply(treasury_cap) + amount <= TOTAL_SUPPLY, 1);
+    assert!(amount < TOTAL_SUPPLY - coin::total_supply(treasury_cap), 1);
     let coin = coin::mint(treasury_cap, amount, ctx);
     transfer::public_transfer(coin, recipient)
 }
