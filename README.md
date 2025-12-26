@@ -6,4 +6,4 @@
 
 ## Audit Report
 
-Audit report from [Boesin](https://beosin.com/audits/TBook_202512181800.pdf) and [Movebit](https://www.movebit.xyz/), report files in [audit_report](audit_report/).
+Audit report from [Boesin](https://beosin.com/audits/TBook_202512181800.pdf) and [Movebit](https://movebit.xyz/reports/20251224-TBook-Token-Final-Audit-Report.pdf), report files in [audit_report](audit_report/).
