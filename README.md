@@ -22,7 +22,7 @@ TBook Token (BOOK) is a Move-based fungible token deployed on the Sui blockchain
 
 | Network | Explorer |
 |---------|----------|
-| Mainnet | [SuiVision](https://suivision.xyz/coin/0xf3edd73adc13db93b310e8e12f3d5e68cebead89abff5d9703c880600f4ea3b8::BOOK::BOOK) |
+| Mainnet | [SuiVision](https://suivision.xyz/coin/0x440aa32fe6290224b7b5fc37d20e093c6841263302d5bd693a64a8a24bc0c589::BOOK::BOOK) |
 | Testnet | [SuiVision](https://testnet.suivision.xyz/coin/0xa40d55604f395cbb025ac6a3e5c98b05079fb32e0d7d4d63a80ddac7229e2aec::BOOK::BOOK) |
 
 ## Audit Reports
